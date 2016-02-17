@@ -1,0 +1,66 @@
+
+body{
+	margin-top: 60px;
+}
+.title{
+	font-family: 'Marck Script', cursive;
+	font-size:20px;
+}
+.picture_bands { 
+	height: 100px; 
+	width: 100px; 
+	overflow: hidden; 
+}
+
+img {
+	height: 100px; 
+	width: 100px; 
+
+}
+
+table {
+	margin-top: 10px;
+	/*background: rgba(255, 255, 255, 0.8);*/
+	/*box-shadow: #81b71a 20px 20px 20px;*/
+	vertical-align: middle !important;
+	font-size:20px;
+}
+.band_name, .popularity, .view_more{
+	vertical-align: middle !important;
+}
+.view_more{
+	padding-top: 43px !important;
+	  
+}
+
+th {
+	text-align: center !important;
+	background-color: #84bd00 !important;
+}
+
+a {
+	text-decoration: none !important;
+	color:#82b919;
+}
+
+a:hover {
+	color: #81b71a;
+}
+
+/*
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #84bd00 !important;
+	background:rgba(132,189,0,0.5);
+}
+*/
+
+/*.picture_bands{
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:auto;
+  }*/

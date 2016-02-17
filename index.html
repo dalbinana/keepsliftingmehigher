@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" >
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="init.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+     <!-- <script src="live.js" charset="utf-8"></script>  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="keepsliftingmehigher.css">
+  </head>
+  <body>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">TOP 10 popular songs of the moment</h4>
+      </div>
+      <div class="modal-body">
+        
+        <table class="table table-striped list_of_songs">
+          <th class="col-md-9">Name of the song</th> 
+          <th class="col-md-2">Popularity</th>
+          <th class="col-md-1">Listen</th>
+
+
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+    </div>
+    </div>
+    <!-- END MODAL-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+            <p><span class="title">Popularity </span>
+            The popularity of a track is a value between 0 and 100, with 100 being the most popular. The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are. The artist's popularity is calculated from the popularity of all the artist's tracks.</p>
+            <p>
+            Generally speaking, songs that are being played a lot now will have a higher popularity than songs that were played a lot in the past. Duplicate tracks (e.g. the same track from a single and an album) are rated independently. Artist and album popularity is derived mathematically from track popularity. Note that the popularity value may lag actual popularity by a few days: the value is not updated in real time.</p>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+            <div class="table-responsive">
+                <table class="table table-striped spoticontent">
+                
+                    <tr>
+                    <th class="col-md-3">Image</th>
+                    <th class="col-md-6">Name of the band</th> 
+                    <th class="col-md-2">Popularity</th>
+                    <th class="col-md-1">Songs</th>
+                    </tr>
+                                
+
+                </table>
+            </div>    
+            </div> 
+            
+            
+            
+        </div>    
+
+    </div>
+  </body>
+
+
+
+
+  </html>
